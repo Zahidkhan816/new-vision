@@ -1,0 +1,1056 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* width: 100%; */
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    /* background-color: #745656; */
+}
+
+.First_container {
+    background-image: url(../image\ 43.png);
+    width: 100%;
+    height: 70rem;
+    background-size: cover;
+    top: 0rem;
+    background-repeat: no-repeat;
+    background-color: #058Acc;
+    background-blend-mode: multiply;
+}
+
+.Vision_logo {
+    width: 15rem;
+    height: 6rem;
+    margin-top: 5.5rem;
+    margin-left: 8rem;
+}
+
+.header1 {
+    display: flex;
+}
+
+.navbar {
+    margin-top: 5.5rem;
+    margin-left: 16rem;
+}
+
+.navbar_icon {
+    display: none;
+}
+
+.navbar li {
+    list-style: none;
+    color: white;
+    display: inline-block;
+    color: rgb(241, 235, 235);
+    font-size: larger;
+    font-size: 1.8rem;
+    margin: 2.6rem;
+}
+
+.headings {
+    width: 898px;
+    height: 214px;
+    margin-left: 8rem;
+    margin-top: 10rem;
+}
+
+.heading1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 1rem;
+    font-size: 6rem;
+    line-height: 10rem;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.Startbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.startButton {
+    width: 18.6rem;
+    height: 4.2rem;
+    color: #FFFFFF;
+    background: #CEA93A;
+    border: none;
+    border-radius: 2px;
+    font-size: medium;
+}
+
+/* media queires  for section 1 */
+
+
+/* second Section  css*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.Second_Container {
+    width: 100%;
+    height: 60rem;
+    background-size: cover;
+    top: 0rem;
+}
+
+.About_US_page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    margin-left: 8rem;
+    /* margin-right: 80px; */
+}
+
+.About_US_headings {}
+
+.About_US_heading {
+    font-style: normal;
+    font-weight: 2rem;
+    font-size: 3.2rem;
+    line-height: 6.9rem;
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+
+.AboutUS_para {
+    width: 61.4rem;
+    height: 28rem;
+    margin-top: 2.6rem;
+    font-size: 2.4rem;
+    letter-spacing: 0.02rem;
+    font-family: 'Jost';
+}
+
+.Aboutus_picture {
+    width: 52.5rem;
+    height: 83.5rem;
+    margin-right: 8rem;
+}
+
+.Aboutus_img {
+    width: 50rem;
+    height: 40rem;
+}
+
+
+/* 3rd container css */
+.thirdcontainer {
+    width: 100%;
+    height: 50rem;
+    background-size: cover;
+    top: 0rem;
+}
+
+.heading2 {
+    text-align: center;
+    /* width: 19.3rem;
+    height: 6.9rem; */
+
+}
+
+.heading_Offering {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 6.rem;
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+
+.heading_Services {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.9rem;
+    margin-top: 1.2rem;
+    /* identical to box height */
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+
+.Boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 6rem;
+}
+
+.box1 {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
+    font-size: 1.4rem;
+    color: black;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    background: rgba(162, 184, 193, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box1-top {
+    width: 30rem;
+    height: 1.8rem;
+    top: 0rem;
+    background-color: #EB7B37;
+}
+
+.box1-img {
+    margin-top: 0.5rem;
+}
+
+.box1-heading {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    /* identical to box height */
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+
+.box1-para {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-top: 1.9rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+
+.box2 {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    font-size: small;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    background: rgba(162, 184, 193, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box2-top {
+    width: 30rem;
+    height: 1.8rem;
+    top: 0rem;
+    background-color: #FAD606;
+}
+
+.box2-heading {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    /* identical to box height */
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+
+.box2-para {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-top: 1.9rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+
+/* box1 and box2 */
+.Boxes_box1_box2{
+    display: flex;
+}
+.box3 {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    font-size: small;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    background: rgba(162, 184, 193, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box3-top {
+    width: 30rem;
+    height: 1.8rem;
+    top: 0rem;
+    background-color: #C6A136;
+}
+
+.box3-heading {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    /* identical to box height */
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+
+.box3-para {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-top: 1.9rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+
+.box4 {
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    font-size: small;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    background: rgba(162, 184, 193, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box4-top {
+    width: 30rem;
+    height: 1.8rem;
+    top: 0rem;
+    background-color: #A2B8C1;
+}
+
+.box4-heading {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    /* identical to box height */
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+
+.box4-para {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-top: 1.9rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+/* bloxk box3 and box4 */
+.Boxes_box3_box4{
+    display: flex;
+}
+/* fourth Container css */
+.fourthContainer {
+    width: 100%;
+    height: 60rem;
+    background-size: cover;
+    top: 0rem;
+}
+
+.services_btn {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.services_btn1 {
+    width: 23.6rem;
+    height: 5.2rem;
+    background-color: #0D89CA;
+    border: none;
+    color: #FFFFFF;
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.9rem;
+    letter-spacing: 0.02rem;
+}
+
+.Partners {
+    text-align: center;
+    margin-top: 10rem;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 6.9rem;
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+
+}
+
+.services_para {
+    width: 129.7rem;
+    height: 8.7rem;
+    margin-left: 8rem;
+    text-align: center;
+}
+
+.services-para1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.9rem;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+
+.logos {
+    width: 129.7rem;
+    margin-top: 6rem;
+    text-align: center;
+    margin-left: 8rem;
+}
+
+
+/* fifth container css */
+
+.fifth_Container {
+    width: 100%;
+    height: 70rem;
+    background-size: cover;
+    top: 0rem;
+}
+
+.Testimials-headings {
+    text-align: center;
+}
+
+.Testimonials {
+    /* width: 24.1rem; */
+    height: 6.864rem;
+    text-align: center;
+    top: 26.1rem;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 35rem;
+    font-size: 4rem;
+    line-height: 6.9rem;
+    color: rgba(8, 26, 43, 0.75);
+}
+
+.Testimonials_para {
+    /* width: 27.0rem; */
+    height: 2.9rem;
+    margin-top: 2rem;
+    /* margin-bottom: 3rem; */
+}
+
+.Testimonials_para {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.9rem;
+    text-align: center;
+    /* identical to box height */
+    color: rgba(8, 26, 43, 0.75);
+}
+
+.Testimonials_boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 4rem;
+}
+
+/* box1 */
+.Testimonials_Box1 {
+    width: 40rem;
+    height: 50rem;
+    top: 2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px rgba(162, 184, 193, 0.5);
+}
+
+.Testimonials_Box1_data {
+    height: 30rem;
+    /* font-size: 2rem; */
+}
+
+.Testimonials_Box1_head {
+    display: flex;
+}
+
+.Testimonials_Box1_head_commas {
+    margin-top: 1.5rem;
+    margin-left: 6em;
+}
+
+.Testimonials_Box1_head_stars {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.Testimonials_paragraph {
+    /* width: 28.8rem; */
+    height: 2.686rem;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.Testimonials_paragraph1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    /* or 125% */
+    text-align: center;
+    color: #001C27;
+}
+
+.icon_color {
+    color: #d3a419;
+}
+
+
+.Testimonials_img {
+    border-radius: 3rem;
+    margin-top: 2rem;
+}
+
+.Testimonials_img1 {
+    width: 8rem;
+    height: 8rem;
+    margin-top: -4rem;
+
+}
+
+.Testimonials_blocks1 {
+    width: 40rem;
+    height: 17.209rem;
+    margin-top: 4rem;
+    background: #A2B8C1;
+    color: #FFFFFF;
+}
+
+.Testimonials_blocks1_para1 {
+    text-align: center;
+    /* padding: 3rem; */
+    font-size: 2rem;
+}
+
+/* box2  css*/
+.Testimonials_Box2 {
+    width: 40rem;
+    height: 50rem;
+    top: 2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px rgba(162, 184, 193, 0.5);
+}
+
+.Testimonials_Box2_data {
+    height: 30rem;
+    /* font-size: 2rem; */
+}
+
+.Testimonials_Box2_head {
+    display: flex;
+}
+
+.Testimonials_Box2_head_commas {
+    margin-top: 1.5rem;
+    margin-left: 6em;
+}
+
+.Testimonials_Box2_head_stars {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.Testimonials_paragraph {
+    /* width: 28.8rem; */
+    height: 2.686rem;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.Testimonials_paragraph2 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    /* or 125% */
+    text-align: center;
+    color: #001C27;
+}
+
+.icon_color {
+    color: #d3a419;
+}
+
+.Testimonials_img {
+    border-radius: 3rem;
+}
+
+.Testimonials_blocks2 {
+    /* width: 350px; */
+    width: 40rem;
+    height: 17.209rem;
+    margin-top: 4rem;
+    background: #A2B8C1;
+    color: #FFFFFF;
+}
+
+.Testimonials_blocks2_para2 {
+    text-align: center;
+    /* padding: 3rem; */
+    font-size: 2rem;
+}
+/* box3 css */
+.Testimonials_Box3 {
+    width: 40rem;
+    height: 50rem;
+    top: 2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px rgba(162, 184, 193, 0.5);
+}
+
+.Testimonials_Box3_data {
+    height: 30rem;
+    /* font-size: 2rem; */
+}
+
+.Testimonials_Box3_head {
+    display: flex;
+}
+
+.Testimonials_Box3_head_commas {
+    margin-top: 1.5rem;
+    margin-left: 6em;
+}
+
+.Testimonials_Box3_head_stars {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.Testimonials_paragraph {
+    /* width: 28.8rem; */
+    height: 2.686rem;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.Testimonials_paragraph3 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    /* or 125% */
+    text-align: center;
+    color: #001C27;
+}
+
+.icon_color {
+    color: #d3a419;
+}
+
+.Testimonials_img {
+    border-radius: 3rem;
+}
+
+.Testimonials_blocks3 {
+    /* width: 350px; */
+    width: 40rem;
+    height: 17.209rem;
+    margin-top: 4rem;
+    background: #A2B8C1;
+    color: #FFFFFF;
+}
+
+.Testimonials_blocks3_para3 {
+    text-align: center;
+    /* padding: 3rem; */
+    font-size: 2rem;
+}
+
+/* sixth container css */
+
+.More_testimonials {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.More_btn {
+    background-color: #058Acc;
+    width: 20.2rem;
+    height: 4rem;
+    color: #FFFFFF;
+    font-size: 2rem;
+    border: none;
+    border-radius: 0.02rem;
+    text-align: center;
+}
+
+/* seventh Blogs Container css */
+
+/* 7th  Blogs Container Css */
+.Blogs_container {
+    width: 100%;
+    height: 70rem;
+    background-size: cover;
+    top: 0rem;
+    margin-bottom: 10rem;
+
+}
+
+.blogs_headings {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.blogs_heading1 {
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+.Blogs_Boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.Blogs_Boxe1 {
+    width: 61.8rem;
+    height: 60.8rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Blogs_Boxe1_img1 {
+    width: 61.8rem;
+    height: 42.0rem;
+}
+
+.Blogs_Boxe1_para {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.Blogs_Boxe1_para2 {
+    width: 50.4rem;
+    height: 7rem;
+    font-size: 1.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 3rem;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+
+.Blogs_Boxe1_data {
+    width: 61.8rem;
+    height: 17.8rem;
+    margin-top: 0rem;
+    background-color: #ffffff;
+}
+
+.Blogs_Boxe1_date {
+    width: 15.6rem;
+    height: 2.9rem;
+    font-size: 2rem;
+    color: #A88427;
+}
+
+.Blogs_Boxe1_time {
+    width: 9.5rem;
+    height: 2.9rem;
+    font-size: 2rem;
+    color: #A88427;
+}
+
+.Blox_Boxes1_ReadMore {
+    text-align: center;
+    font-size: 2rem;
+    height: 2.9rem;
+}
+
+.Blogs_Boxe1_line {
+    width: 61.8rem;
+    height: 1rem;
+    margin-top: 4.2rem;
+    background-color: #A88427;
+}
+
+/* block box2 */
+.Blogs_Boxe2 {
+    width: 61.8rem;
+    height: 60.8rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Blogs_Boxe2_img2 {
+    width: 61.8rem;
+    height: 42.0rem;
+}
+
+.Blogs_Boxe2_para {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.Blogs_Boxe2_date {
+    width: 15.6rem;
+    height: 2.9rem;
+    font-size: 2rem;
+    color: #A88427;
+}
+
+.Blogs_Boxe2_time {
+    width: 9.5rem;
+    height: 2.9rem;
+    font-size: 2rem;
+    color: #A88427;
+}
+
+.Blogs_Boxe2_data {
+    width: 61.8rem;
+    height: 17.8rem;
+    margin-top: 0rem;
+    background-color: #ffffff;
+}
+
+.Blogs_Boxe2_para2 {
+    width: 50.4rem;
+    height: 7rem;
+    font-size: 1.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 3rem;
+    text-align: center;
+    letter-spacing: 0.02rem;
+    color: #081A2B;
+}
+
+.Blogs_Boxe2_line {
+    width: 61.8rem;
+    height: 1rem;
+    margin-top: 4.2rem;
+    background-color: #FAD606;
+}
+
+.Blox_Boxes2_ReadMore {
+    text-align: center;
+    font-size: 2rem;
+    height: 2.9rem;
+}
+
+.Show_All_btn {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #FFFFFF;
+
+}
+
+/* contact container css */
+.contact_form_header {
+    text-align: center;
+}
+
+.contact_form_heading1 {
+    font-size: 4rem;
+}
+
+.contact_form_para1 {
+    font-size: 2rem;
+}
+
+.Contact_container {
+    width: 100%;
+    height: 70rem;
+    background-size: cover;
+    top: 0rem;  
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    /* margin-left: 8rem; */
+    /* margin-right: auto; */
+}
+
+.Contact_Form {
+    width: 45.3rem;
+    height: 58.9rem;
+    background: #FFFFFF;
+    border: 0.1rem solid #DDDDDD;
+    /* SHADOW */
+    box-shadow: 0rem 1.3rem 1.9rem rgba(0, 0, 0, 0.07);
+    border-radius: 2rem;
+}
+
+.Contact_Form_data {
+    text-align: center;
+}
+
+.Contact_Form_heading {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Contact_Form_heading1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    /* identical to box height, or 140% */
+    letter-spacing: 0.01rem;
+    /* text */
+    color: #252B42;
+}
+
+.contact_name_input {
+    width: 35.5rem;
+    border-radius: 0.2rem;
+    padding: 1.5rem 1.6rem;
+    background-color: #F5F5F5;
+    border: none;
+}
+
+.contact_email_input {
+    width: 35.5rem;
+    border-radius: 0.2rem;
+    padding: 1.5rem 1.6rem;
+    background-color: #F5F5F5;
+    border: none;
+}
+
+.contact_textarea {
+    width: 35.5rem;
+    height: 19rem;
+    border-radius: 0.2rem;
+    padding: 1.5rem 1.6rem;
+    background-color: #F5F5F5;
+    border: none;
+}
+
+.contact_send_btn {
+    width: 14.5rem;
+    height: 5.6rem;
+    margin-top: 2rem;
+    margin-left: 3.3rem;
+    color: #FFFFFF;
+    background: #06a2f6;
+    border: none;
+
+}
+
+.Contact_map {
+    width: 60.3rem;
+    height: 58.9rem;
+}
+
+.Map {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.map_img {
+    width: 51.6rem;
+    margin-top: 10rem;
+    height: 32.3rem;
+
+}
+
+.icons {
+    display: flex;
+
+}
+
+.twitter {
+    padding: 1rem;
+    color: #06a2f6;
+}
+
+.facbook {
+
+    padding: 1rem;
+    color: #06a2f6;
+}
+
+.linkedin {
+    padding: 1rem;
+    color: #06a2f6;
+}
+
+/* footer css */
+
+.footer {
+    width: 100%;
+    background-size: cover;
+    height: 4.3rem;
+    background: rgba(0, 28, 39, 0.75);
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.copyrigt {
+    font-size: 2rem;
+    margin-top: 1.1rem;
+}
+
+.footer_para {
+    font-size: 2rem;
+    margin-top: 1.1rem;
+    margin-left: 2rem;
+}
